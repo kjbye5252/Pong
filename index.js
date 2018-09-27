@@ -47,28 +47,28 @@ function lines() {
   line(linex2,liney2-25,linex2,liney2+25);
 //lineMovement
   if (keyIsDown(87)) {
-    liney1 -= 2;
+    liney1 -= 5;
   }
   if (keyIsDown(83)) {
-    liney1 += 2;
+    liney1 += 5;
   }
   if (keyIsDown(65)) {
-    liney1 -= 2;
+    liney1 -= 5;
   }
   if (keyIsDown(68)) {
-    liney1 += 2;
+    liney1 += 5;
   }
   if (keyIsDown(UP_ARROW)) {
-    liney2 -= 2;
+    liney2 -= 5;
   }
   if (keyIsDown(DOWN_ARROW)) {
-    liney2 += 2;
+    liney2 += 5;
   }
   if (keyIsDown(LEFT_ARROW)) {
-    liney2 -= 2;
+    liney2 -= 5;
   }
   if (keyIsDown(RIGHT_ARROW)) {
-    liney2 += 2;
+    liney2 += 5;
   }
 }
 
